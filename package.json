@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src --ignore db.json",
-    "start": "node src"
+    "start": "node src/index.js"
   },
   "author": "Mauro Hernandez",
   "license": "MIT",
