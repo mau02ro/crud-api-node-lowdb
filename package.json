@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-lowdb",
+  "version": "1.0.0",
+  "description": "rest api lowDB",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src --ignore db.json",
+    "start": "node src"
+  },
+  "author": "Mauro Hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.10.0",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
